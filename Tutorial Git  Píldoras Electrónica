@@ -1,0 +1,75 @@
+Tutorial Git  Píldoras Electrónica
+https://www.youtube.com/
+watch?v=qk-GWtcdQek&list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU&index=2
+21 sep 2023.
+-------------------------------------------------------------------
+
+[En el navegador señecciona la carpeta del proyecto y en el menú contextual botón derecho y desde ahí corre git-bash here]
+
+git init
+git status -s - muestra directorios y archivos 
+
+minuto 16  video 2
+23 sep 2023
+
+git reset hard --feb656a  - la instantánea inicial
+git log --oneline - nos muestra que la segunda instantánea se ha perdido ya que fuimos a la primera.  Este archivo, inicial, se muestra en el procesador de texto.
+
+ 
+video 3
+git add .  - agrega automáticamente todos los archivos del proyecto
+
+git commit -am "msj" - con este comando evitamos primero agregarlo a stage y luego hacer commit ya que se hace en un solo paro.
+
+git commit --amend - mr abre sublimetext para editar el comentario
+
+video 4
+minuto cero
+curso-pildoras
+
+30 sep 2023
+
+No aparecían los archivos en el repositorio de GitHub hasta que hice esto:
+$ git push -u origin master
+
+video 4
+1 oct 2023  12:05
+
+Al hacer modificaciones directas en github, sepueden traer esos cambios a mi consola
+git pull
+
+Subir la primera versión:
+git tag 1-10-23v1 -m "Primera versión del proyecto"
+git push --tags  - Lo sube a github
+
+si perdemos el proyecto en nuestro PC
+	- vamos a github y lo clonamos desde consola
+	- pulsamos en <code> y copiamos la URL
+	git clone https://github.com/sirius-castor/sirius-castor.git
+
+
+video 5
+
+minuto 12:41 inicia la codificación.
+
+GREAR UNA RAMA
+git branch javascript - crea la rama javascript
+git branch - muestra las ramas
+git checkout javascript - mueve hacia la rama javascript
+git branch - me muestra con asterisco la rama activa
+
+....después de modificar el archivo java.js
+git add .   - agrega a la rama donde se trabaja "javascript"
+git commit -m  "saludo javascript agregado"
+
+...el editor muestra conflictos para corregir y luego se borran las líneas de comentarios agregadas y ya está.
+
+video 7 continúan las ramas desde VSC
+--cuando se hace un merge deberá borrar la rama
+git branch -D Diseñador1
+
+Video 8 . subir y sincronizar desde VSC
+minuto 3:23
+VSC - view/command Palette/git clone
+para copiar todo lo que hay en el repositorio girhub
+

@@ -73,3 +73,11 @@ minuto 3:23
 VSC - view/command Palette/git clone
 para copiar todo lo que hay en el repositorio girhub
 
+VSC - view/command Palette/git push
+..envía todo el proyecto al github
+
+VSC - PANEL INFERIOR IZQUIERDO símbolo de sincronización - actualiza en github y en el editor VSC autommáticamente los cambios realizados.
+
+Video 9 - trabajar con ramas en github
+nibuto 3:50
+
